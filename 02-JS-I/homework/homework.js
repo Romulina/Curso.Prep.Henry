@@ -64,8 +64,8 @@ function sonIguales(x, y) {
     If  (x === y) 
     {
       return true ;
-    } else {
-      return false;
+    }// else {
+      //return false;
     } 
 }
 
