@@ -1,0 +1,27 @@
+h1 {
+    color: red;
+    font-size: 18px;
+    font-style: italic;
+}
+img {
+    width: 400px;
+}
+h3 {
+    color: blueviolet;
+    font-size: 14px;
+}
+#thirdDiv { 
+    background-color: rgb(162, 109, 49);
+    height: 800px;
+    width: 500px;
+    padding: 50px;
+    border: 10px solid rgb(72, 46, 6);
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+.divClass {
+    padding: 10px;
+    border: 20px rgb(225, 65, 172);
+}

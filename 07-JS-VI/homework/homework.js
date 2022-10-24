@@ -5,16 +5,14 @@ function mayuscula(nombre) {
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
   
-  var mayus = nombre[0].toUpperCase();
-  var resto = nombre.slice(1);
-  return mayus + resto;
+ 
   
 }
 
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
-  return cb();
+  
  
 }
 
@@ -22,7 +20,7 @@ function operacionMatematica(n1, n2, cb) {
   //Vamos a recibir una función que realiza una operación matemática como callback junto con dos números.
   //Devolver el callback pasándole como argumentos los números recibidos.
   //Tu código:
-  return cb(n1,n2);
+  
 
  
 }
@@ -33,12 +31,7 @@ function sumarArray(numeros, cb) {
   // No es necesario devolver nada
   //Tu código:
   
-  var suma = 0;
-  for (i = 0; i < numeros.length; i++){
-    suma = suma + numeros[i];
-  }
-
-  cb(suma);
+  
 
  
 }
@@ -47,7 +40,7 @@ function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
-array.forEach(cb);
+
   
 }
 
@@ -58,10 +51,7 @@ function map(array, cb) {
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
 
-  var nvoArray = array.map(function(el){
-    return cb(el);
-  })
-  return nvoArray;
+  
 
 
 }
@@ -71,10 +61,7 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
 
-  var nuevo = array.filter(function(el){
-  return el[0] === "a"
-  });
-  return nuevo;
+  
  
 }
 
